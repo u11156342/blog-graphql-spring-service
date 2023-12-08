@@ -1,4 +1,7 @@
  
+
+Reactor core with graphql spring subscription example
+
 you can go to http://localhost:8080/graphiql.
 run:
 mutation Person {
