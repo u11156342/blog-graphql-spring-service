@@ -18,8 +18,7 @@ public class CommentPublisher {
     public void publish(final Note note) {
         sink.tryEmitNext(new NoteUpdate(note.getNote(), note.getAuthor().getName(), note.getCreatedOn().toString()));
     }
-
-
+    
     public Flux<NoteUpdate> getPublisher() {
         return sink.asFlux().map(note -> note);
     }
