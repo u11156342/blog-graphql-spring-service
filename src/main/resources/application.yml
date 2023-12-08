@@ -18,6 +18,10 @@ graphql:
     subscriptions:
       websocket:
         path: /subscriptions
+      apollo:
+        keep-alive-enabled: true
+        keep-alive-interval-seconds: 300000000
+    async-mode-enabled: true
 
 graphiql:
   mapping: /graphiql

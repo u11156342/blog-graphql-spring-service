@@ -41,6 +41,7 @@ dependencies {
     testCompile libraries.test
 
     testAnnotationProcessor libraries.processors
+    implementation 'io.projectreactor:reactor-core:3.5.11'
 }
 
 // Enables passing command line options to bootRun (e.g ./gradlew -Dspring.profiles.active=development bootRun)

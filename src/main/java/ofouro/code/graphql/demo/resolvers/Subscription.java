@@ -20,3 +20,4 @@ class Subscription implements GraphQLSubscriptionResolver {
         return commentPublisher.getPublisher();
     }
 }
+

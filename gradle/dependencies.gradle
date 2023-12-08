@@ -12,7 +12,8 @@ libraries.tools = [
         'org.apache.commons:commons-lang3:3.8.1',
         'io.reactivex.rxjava2:rxjava:2.2.7',
         'com.fasterxml.jackson.dataformat:jackson-dataformat-csv:',
-        'com.google.guava:guava:27.1-jre'
+        'com.google.guava:guava:27.1-jre',
+        'io.projectreactor:reactor-tools:3.4.7'
 ]
 
 
@@ -35,3 +36,6 @@ libraries.test = [
         'org.springframework.boot:spring-boot-starter-test',
         'com.graphql-java-kickstart:graphql-spring-boot-starter-test:5.0.5'
 ]
+dependencies {
+    implementation 'io.projectreactor:reactor-core:3.5.11'
+}

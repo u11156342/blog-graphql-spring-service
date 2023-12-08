@@ -44,9 +44,9 @@ public class NotesService {
     public Optional<Note> findById(Long id) {
         return this.noteRepository.findById(id);
     }
-
     public List<Note> findAll() {
         return noteRepository.findAll();
     }
+
 }
 
